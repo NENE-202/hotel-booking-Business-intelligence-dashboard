@@ -6,12 +6,14 @@ This project analyzes hotel booking data to uncover insights into revenue perfor
 
 The hospitality industry relies heavily on data-driven decision-making to maximize occupancy, increase revenue, reduce cancellations, and improve guest satisfaction. This analysis focuses on identifying operational opportunities that can improve profitability and customer experience across hotel operations.
 
-The dashboard explores four key business areas:
+### Project KPIs
 
-* Executive Business Performance
-* Cancellation Analysis
-* Seasonal Demand Analysis
-* Guest Experience Analysis
+| Metric | Value |
+|----------|---------|
+| Total Revenue | $828.26K |
+| Total Guests | 234,988 |
+| Cancellation Rate | 37% |
+| Average Daily Rate (ADR) | 101.83 |
 
 Insights and recommendations are provided to support hotel management in improving revenue generation, customer retention, and operational efficiency.
 
