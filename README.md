@@ -1,4 +1,7 @@
 # Hotel Booking Business Intelligence Dashboard
+## Executive Dashboard
+
+![Executive Dashboard](Excecutive_report.png)
 
 ## Project Background
 
