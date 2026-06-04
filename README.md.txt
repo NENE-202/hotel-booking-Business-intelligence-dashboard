@@ -268,6 +268,21 @@ Insert screenshots of:
 4. Guest Experience Report
 
 ---
+## Executive Report
+
+![Executive Report](Dashboard%20Screenshots/Executive_Report.png)
+
+## Cancellation Analysis
+
+![Cancellation Analysis](Dashboard%20Screenshots/Cancellation_Report.png)
+
+## Seasonal Analysis
+
+![Seasonal Analysis](Dashboard%20Screenshots/Seasonal_Analysis.png)
+
+## Guest Experience Report
+
+![Guest Experience](Dashboard%20Screenshots/Guest_Experience_Report.png)
 
 # Author
 
