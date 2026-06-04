@@ -60,6 +60,17 @@ Before analysis, the following validation checks were performed:
 * Reviewed cancellation records for consistency
 
 ---
+## Skills Demonstrated
+
+- Data Cleaning
+- Data Modeling
+- Power Query
+- DAX Calculations
+- Data Visualization
+- Business Intelligence
+- Hospitality Analytics
+- Dashboard Design
+- Data Storytelling
 
 ## Tools Used
 
