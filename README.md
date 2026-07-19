@@ -190,68 +190,17 @@ Several DAX measures were created to support business analysis and dashboard int
 - Revenue by Customer Segment
 
 # 📊 Dashboard Overview
-## Executive Dashboard
 
-Provides an overview of hotel performance through KPIs, revenue trends, customer segments, and hotel performance.
-
-![Executive Dashboard](Executive_Dashboard.png)
-
----
-
-## Cancellation Analysis
-
-Investigates booking cancellation behaviour and identifies the major causes of revenue leakage.
-
-![Cancellation Analysis](Cancellation_Analysis.png)
-
----
-
-## Seasonal Analysis
-
-Evaluates seasonal demand, booking trends, and revenue performance throughout the year.
-
-![Seasonal Analysis](Seasonal_Analysis.png)
-
----
-
-## Guest Experience
-
-Explores customer behaviour, guest segmentation, and geographical revenue distribution.
-
-![Guest Experience](Guest_EXperience.png)
-The Power BI report consists of **four interactive dashboard pages**, each designed to answer a specific set of business questions.
+The Power BI report consists of **four interactive dashboard pages**, each designed to answer a specific business question and support management decision-making.
 
 | Dashboard Page | Business Focus | Primary Objective |
 |----------------|----------------|-------------------|
 | Executive Dashboard | Overall Business Performance | Monitor KPIs and revenue performance |
-| Cancellation Analysis | Booking Risk | Identify cancellation drivers and revenue leakage |
+| Cancellation Analysis | Booking Risk | Identify cancellation drivers and reduce revenue leakage |
 | Seasonal Analysis | Demand & Revenue Trends | Analyze seasonal booking patterns and pricing opportunities |
 | Guest Experience | Customer Behaviour | Understand guest characteristics and spending patterns |
 
-Together, these dashboards provide management with a comprehensive view of hotel performance, enabling faster, data-driven decision-making.
-
-
-
-- Average ADR by Month
-
-These measures enabled dynamic calculations, KPI reporting, and interactive filtering across all dashboard pages.
-## 📊 Executive Dashboard
-
-### Purpose
-
-Provides management with a high-level overview of hotel performance by monitoring key performance indicators and identifying major revenue drivers.
-
-### Key KPIs
-
-- Total Revenue
-- Total Guests
-- Average Daily Rate (ADR)
-- Cancellation Rate
-
-### Business Value
-
-This page enables executives to quickly assess business performance, identify high-performing customer segments, compare hotel performance, and monitor revenue trends over time.
-
+Together, these dashboards provide hotel management with a comprehensive view of business performance, enabling faster and more informed decision-making.
 # 📈 Executive Summary
 
 This Business Intelligence project analyzes historical hotel booking data to evaluate revenue performance, booking behaviour, cancellation trends, seasonal demand, and guest experience.
@@ -263,10 +212,9 @@ The analysis revealed several important findings:
 - The overall **cancellation rate of 37%** represents a significant source of revenue leakage.
 - **City Hotels** experienced substantially more booking cancellations than Resort Hotels.
 - Booking demand and revenue displayed clear seasonal patterns, with peak performance occurring during high-demand months.
-- Guests submitting more special requests generally paid higher Average Daily Rates (ADR), indicating higher customer value.
+- Guests submitting more special requests generally paid higher **Average Daily Rates (ADR)**, indicating higher customer value.
 
 These insights provide hotel management with actionable information to improve pricing strategies, reduce cancellations, enhance customer experience, and support operational planning.
-
 # 🔍 Root Cause Analysis
 
 The dashboard identified several business challenges affecting hotel performance.
