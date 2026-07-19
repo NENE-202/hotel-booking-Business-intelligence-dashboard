@@ -300,67 +300,6 @@ The dashboard identified several business challenges affecting hotel performance
 
 - Opportunities for premium services and upselling.
 
-# 🔍 Root Cause Analysis
-
-The dashboard identified several business challenges affecting hotel performance.
-
-## 1. High Booking Cancellation Rate
-
-### Possible Root Causes
-
-- Long booking lead times increase the likelihood of cancellations.
-- Flexible deposit policies reduce customer commitment.
-- City Hotels receive a larger volume of bookings, resulting in higher cancellation volumes.
-- Certain market segments demonstrate consistently higher cancellation behaviour.
-
-### Business Impact
-
-- Revenue loss
-- Reduced occupancy
-- Inaccurate demand forecasting
-- Operational inefficiencies
-
----
-
-## 2. Revenue Concentration
-
-### Possible Root Causes
-
-- Revenue is heavily dependent on Transient and Transient-Party customers.
-- Contract and Group bookings contribute relatively little revenue.
-
-### Business Impact
-
-- Greater business risk if high-value customer segments decline.
-
----
-
-## 3. Seasonal Demand Fluctuation
-
-### Possible Root Causes
-
-- Travel demand varies significantly throughout the year.
-- Room pricing changes based on seasonal demand.
-
-### Business Impact
-
-- Uneven occupancy
-- Revenue volatility
-- Staffing challenges
-
----
-
-## 4. Guest Spending Behaviour
-
-### Possible Root Causes
-
-- Guests requesting additional services are willing to pay higher room rates.
-- Higher-value guests typically require more personalised services.
-
-### Business Impact
-
-- Opportunities for premium services and upselling.
-
 
 ## 2. Cancellation Analysis
 
@@ -460,3 +399,160 @@ The analysis produced several important business insights:
 - Guests submitting multiple special requests generally paid higher ADR.
 - Most bookings were made by Non-Family travellers, suggesting that the hotel's primary customer base consists of solo travellers, couples, and business guests.
 
+# 🚀 Business Recommendations
+
+Based on the dashboard insights, the following recommendations are proposed to improve hotel performance.
+
+## 1. Reduce Booking Cancellations
+
+**Business Issue**
+
+Approximately **37%** of bookings were cancelled, resulting in significant revenue loss.
+
+### Recommendations
+
+- Encourage Non-Refundable deposit options through pricing incentives.
+- Send automated booking reminders before arrival dates.
+- Develop predictive models to identify bookings with a high risk of cancellation.
+- Review cancellation policies for high-risk customer segments.
+
+---
+
+## 2. Improve Revenue Performance
+
+### Recommendations
+
+- Prioritize marketing campaigns targeting **Transient** and **Transient-Party** customers.
+- Introduce loyalty programmes to encourage repeat bookings.
+- Continuously monitor ADR and occupancy to optimise pricing decisions.
+
+---
+
+## 3. Optimise Seasonal Demand
+
+### Recommendations
+
+- Implement dynamic pricing during peak seasons.
+- Increase staffing and operational capacity before high-demand periods.
+- Launch promotional campaigns during low-demand months to improve occupancy.
+
+---
+
+## 4. Enhance Guest Experience
+
+### Recommendations
+
+- Develop premium service packages for guests requesting additional services.
+- Personalise guest experiences using booking behaviour.
+- Reward high-value guests through loyalty programmes and exclusive offers.
+
+# 💼 Skills Demonstrated
+
+Throughout this project, the following technical and analytical skills were demonstrated:
+
+### Business Analysis
+
+- Business Problem Definition
+- KPI Development
+- Business Intelligence Reporting
+- Root Cause Analysis
+- Data Storytelling
+- Business Recommendations
+- Decision Support Analytics
+
+### Data Preparation
+
+- Microsoft Excel Data Cleaning
+- Data Validation
+- Missing Value Handling
+- Duplicate Removal
+- Data Standardisation
+
+### Power BI
+
+- Power Query
+- Data Modeling
+- DAX Measures
+- Interactive Dashboards
+- Slicers and Filters
+- KPI Cards
+- Drill-down Analysis
+
+### Data Visualisation
+
+- Executive Dashboard Design
+- Business Storytelling
+- Interactive Reporting
+- Performance Monitoring
+
+# 🛠️ Tools Used
+
+| Tool | Purpose |
+|-------|----------|
+| Microsoft Excel | Data Cleaning and Preparation |
+| Microsoft Power BI | Dashboard Development |
+| Power Query | Data Transformation |
+| DAX | KPI and Measure Calculations |
+| GitHub | Project Documentation and Version Control |
+
+# 📁 Project Files
+
+| File | Description |
+|------|-------------|
+| Hotel_Booking_Power_BI.pbix | Power BI report |
+| hotel_bookings.csv | Cleaned dataset |
+| README.md | Project documentation |
+| Executive_Report.png | Executive Dashboard |
+| Cancellation_Report.png | Cancellation Dashboard |
+| Seasonal_Analysis_Report.png | Seasonal Dashboard |
+
+
+# 🔮 Future Improvements
+
+Future enhancements could include:
+
+- Building a Star Schema data model.
+- Integrating SQL as the primary data source instead of CSV.
+- Developing predictive models for booking cancellations.
+- Adding forecasting for future revenue and occupancy.
+- Creating row-level security for different business departments.
+- Publishing the dashboard to the Power BI Service for online access.
+
+
+| Guest_Experience_Report.png | Guest Experience Dashboard |
+
+
+# 📸 Dashboard Preview
+
+The report consists of four interactive dashboards that provide a comprehensive overview of hotel performance.
+
+### Executive Dashboard
+
+*(Insert Screenshot)*
+
+### Cancellation Analysis
+
+*(Insert Screenshot)*
+
+### Seasonal Analysis
+
+*(Insert Screenshot)*
+
+### Guest Experience
+
+*(Insert Screenshot)*
+
+
+# 👩‍💻 Author
+
+**Esther Ohuenene Emmanuel**
+
+Data Analyst | IBM Certified Data Analyst
+
+Passionate about transforming raw data into actionable business insights through analytics, visualization, and storytelling.
+
+### Connect with Me
+
+- LinkedIn: www.linkedin.com/in/esther-emmanuel-654034292
+- GitHub: https://github.com/NENE-202
+- Email: emmanueloziowuh@gmail.com
