@@ -218,7 +218,7 @@ Evaluates seasonal demand, booking trends, and revenue performance throughout th
 
 Explores customer behaviour, guest segmentation, and geographical revenue distribution.
 
-![Guest Experience](Guest_Experience.png)
+![Guest Experience](Guest_EXperience.png)
 The Power BI report consists of **four interactive dashboard pages**, each designed to answer a specific set of business questions.
 
 | Dashboard Page | Business Focus | Primary Objective |
