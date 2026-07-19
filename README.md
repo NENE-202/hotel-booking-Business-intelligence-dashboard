@@ -188,6 +188,22 @@ Several DAX measures were created to support business analysis and dashboard int
 - Booking Count
 - Revenue by Hotel Type
 - Revenue by Customer Segment
+
+# 📊 Dashboard Overview
+
+The Power BI report consists of **four interactive dashboard pages**, each designed to answer a specific set of business questions.
+
+| Dashboard Page | Business Focus | Primary Objective |
+|----------------|----------------|-------------------|
+| Executive Dashboard | Overall Business Performance | Monitor KPIs and revenue performance |
+| Cancellation Analysis | Booking Risk | Identify cancellation drivers and revenue leakage |
+| Seasonal Analysis | Demand & Revenue Trends | Analyze seasonal booking patterns and pricing opportunities |
+| Guest Experience | Customer Behaviour | Understand guest characteristics and spending patterns |
+
+Together, these dashboards provide management with a comprehensive view of hotel performance, enabling faster, data-driven decision-making.
+
+
+
 - Average ADR by Month
 
 These measures enabled dynamic calculations, KPI reporting, and interactive filtering across all dashboard pages.
@@ -208,8 +224,239 @@ Provides management with a high-level overview of hotel performance by monitorin
 
 This page enables executives to quickly assess business performance, identify high-performing customer segments, compare hotel performance, and monitor revenue trends over time.
 
+# 📈 Executive Summary
+
+This Business Intelligence project analyzes historical hotel booking data to evaluate revenue performance, booking behaviour, cancellation trends, seasonal demand, and guest experience.
+
+The analysis revealed several important findings:
+
+- The hotel generated **$828.26K** in total revenue from **119,390 bookings**, serving approximately **234,988 guests**.
+- **Transient-Party** and **Transient** customers contributed the majority of total revenue.
+- The overall **cancellation rate of 37%** represents a significant source of revenue leakage.
+- **City Hotels** experienced substantially more booking cancellations than Resort Hotels.
+- Booking demand and revenue displayed clear seasonal patterns, with peak performance occurring during high-demand months.
+- Guests submitting more special requests generally paid higher Average Daily Rates (ADR), indicating higher customer value.
+
+These insights provide hotel management with actionable information to improve pricing strategies, reduce cancellations, enhance customer experience, and support operational planning.
+
+# 🔍 Root Cause Analysis
+
+The dashboard identified several business challenges affecting hotel performance.
+
+## 1. High Booking Cancellation Rate
+
+### Possible Root Causes
+
+- Long booking lead times increase the likelihood of cancellations.
+- Flexible deposit policies reduce customer commitment.
+- City Hotels receive a larger volume of bookings, resulting in higher cancellation volumes.
+- Certain market segments demonstrate consistently higher cancellation behaviour.
+
+### Business Impact
+
+- Revenue loss
+- Reduced occupancy
+- Inaccurate demand forecasting
+- Operational inefficiencies
+
+---
+
+## 2. Revenue Concentration
+
+### Possible Root Causes
+
+- Revenue is heavily dependent on Transient and Transient-Party customers.
+- Contract and Group bookings contribute relatively little revenue.
+
+### Business Impact
+
+- Greater business risk if high-value customer segments decline.
+
+---
+
+## 3. Seasonal Demand Fluctuation
+
+### Possible Root Causes
+
+- Travel demand varies significantly throughout the year.
+- Room pricing changes based on seasonal demand.
+
+### Business Impact
+
+- Uneven occupancy
+- Revenue volatility
+- Staffing challenges
+
+---
+
+## 4. Guest Spending Behaviour
+
+### Possible Root Causes
+
+- Guests requesting additional services are willing to pay higher room rates.
+- Higher-value guests typically require more personalised services.
+
+### Business Impact
+
+- Opportunities for premium services and upselling.
+
+# 🔍 Root Cause Analysis
+
+The dashboard identified several business challenges affecting hotel performance.
+
+## 1. High Booking Cancellation Rate
+
+### Possible Root Causes
+
+- Long booking lead times increase the likelihood of cancellations.
+- Flexible deposit policies reduce customer commitment.
+- City Hotels receive a larger volume of bookings, resulting in higher cancellation volumes.
+- Certain market segments demonstrate consistently higher cancellation behaviour.
+
+### Business Impact
+
+- Revenue loss
+- Reduced occupancy
+- Inaccurate demand forecasting
+- Operational inefficiencies
+
+---
+
+## 2. Revenue Concentration
+
+### Possible Root Causes
+
+- Revenue is heavily dependent on Transient and Transient-Party customers.
+- Contract and Group bookings contribute relatively little revenue.
+
+### Business Impact
+
+- Greater business risk if high-value customer segments decline.
+
+---
+
+## 3. Seasonal Demand Fluctuation
+
+### Possible Root Causes
+
+- Travel demand varies significantly throughout the year.
+- Room pricing changes based on seasonal demand.
+
+### Business Impact
+
+- Uneven occupancy
+- Revenue volatility
+- Staffing challenges
+
+---
+
+## 4. Guest Spending Behaviour
+
+### Possible Root Causes
+
+- Guests requesting additional services are willing to pay higher room rates.
+- Higher-value guests typically require more personalised services.
+
+### Business Impact
+
+- Opportunities for premium services and upselling.
 
 
+## 2. Cancellation Analysis
+
+### Purpose
+
+This dashboard investigates booking cancellation behaviour to identify patterns, understand contributing factors, and reduce revenue leakage.
+
+### Key Metrics
+
+- Cancellation Rate
+- Cancellation by Hotel Type
+- Cancellation by Market Segment
+- Cancellation by Deposit Type
+- Cancellation by Lead Time
+
+### Key Insights
+
+- City Hotels recorded the highest number of booking cancellations.
+- Longer booking lead times were associated with higher cancellation levels.
+- Certain market segments consistently experienced higher cancellation rates.
+- Non-Refundable deposits significantly reduced cancellation risk.
+
+### Business Value
+
+Supports management in identifying high-risk bookings, improving reservation policies, and reducing revenue losses caused by cancellations.
 
 
+## 3. Seasonal Analysis
+
+### Purpose
+
+The Seasonal Analysis dashboard evaluates booking demand, pricing trends, and revenue performance across different months of the year.
+
+### Key Metrics
+
+- Booking Count by Month
+- Revenue by Month
+- Average ADR by Month
+- Revenue by Length of Stay
+
+### Key Insights
+
+- Booking demand steadily increased toward the peak travel season.
+- August recorded the highest booking volume.
+- Monthly revenue peaked during the strongest demand periods.
+- Short Stay bookings generated the largest share of total revenue.
+
+### Business Value
+
+Enables management to optimize pricing strategies, improve staffing plans, and prepare for seasonal fluctuations in demand.
+
+## 4. Guest Experience Analysis
+
+### Purpose
+
+This dashboard explores guest behaviour, customer value, and geographic distribution to support customer-focused decision-making.
+
+### Key Metrics
+
+- Revenue by Customer Segment
+- ADR vs Special Requests
+- Family vs Non-Family Guests
+- Revenue by Guest Country
+
+### Key Insights
+
+- Transient-Party guests generated the highest revenue.
+- Guests making more special requests generally paid higher ADR.
+- Non-Family guests represented the majority of bookings.
+- Revenue was generated from a broad international customer base.
+
+### Business Value
+
+Provides insights into customer behaviour that support personalized services, targeted marketing campaigns, and premium guest experience initiatives.
+
+# 💡 Key Business Insights
+
+The analysis produced several important business insights:
+
+### Revenue Performance
+
+- Total hotel revenue exceeded **$828K**, with City Hotels generating the highest overall revenue.
+- Transient-Party and Transient customers were the primary contributors to hotel revenue.
+
+### Booking Cancellations
+
+- Approximately **37%** of bookings were cancelled, representing a significant source of revenue leakage.
+- Longer lead times and flexible booking conditions contributed to higher cancellation risk.
+
+### Seasonal Demand
+
+- Booking demand increased significantly during peak travel months.
+- Revenue and ADR followed clear seasonal patterns, supporting the use of dynamic pricing strategies.
+
+### Guest Behaviour
+
+- Guests submitting multiple special requests generally paid higher ADR.
+- Most bookings were made by Non-Family travellers, suggesting that the hotel's primary customer base consists of solo travellers, couples, and business guests.
 
