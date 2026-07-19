@@ -190,7 +190,35 @@ Several DAX measures were created to support business analysis and dashboard int
 - Revenue by Customer Segment
 
 # 📊 Dashboard Overview
+## Executive Dashboard
 
+Provides an overview of hotel performance through KPIs, revenue trends, customer segments, and hotel performance.
+
+![Executive Dashboard](Executive_Dashboard.png)
+
+---
+
+## Cancellation Analysis
+
+Investigates booking cancellation behaviour and identifies the major causes of revenue leakage.
+
+![Cancellation Analysis](Cancellation_Analysis.png)
+
+---
+
+## Seasonal Analysis
+
+Evaluates seasonal demand, booking trends, and revenue performance throughout the year.
+
+![Seasonal Analysis](Seasonal_Analysis.png)
+
+---
+
+## Guest Experience
+
+Explores customer behaviour, guest segmentation, and geographical revenue distribution.
+
+![Guest Experience](Guest_Experience.png)
 The Power BI report consists of **four interactive dashboard pages**, each designed to answer a specific set of business questions.
 
 | Dashboard Page | Business Focus | Primary Objective |
