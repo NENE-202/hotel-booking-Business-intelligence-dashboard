@@ -498,27 +498,38 @@ Future enhancements could include:
 | Guest_Experience_Report.png | Guest Experience Dashboard |
 
 
+
 # 📸 Dashboard Preview
 
-The report consists of four interactive dashboards that provide a comprehensive overview of hotel performance.
+## Executive Dashboard
 
-### Executive Dashboard
+Provides an overview of hotel performance through KPIs, revenue trends, customer segments, and hotel performance.
 
-*(Insert Screenshot)*
+![Executive Dashboard](images/executive_dashboard.png)
 
-### Cancellation Analysis
+---
 
-*(Insert Screenshot)*
+## Cancellation Analysis
 
-### Seasonal Analysis
+Investigates booking cancellation behaviour to identify revenue leakage and high-risk booking patterns.
 
-*(Insert Screenshot)*
+![Cancellation Analysis](images/cancellation_analysis.png)
 
-### Guest Experience
+---
 
-*(Insert Screenshot)*
+## Seasonal Analysis
 
+Examines monthly booking trends, ADR, and revenue patterns to support seasonal planning.
 
+![Seasonal Analysis](images/seasonal_analysis.png)
+
+---
+
+## Guest Experience
+
+Explores guest behaviour, customer segments, and geographic revenue distribution.
+
+![Guest Experience](images/guest_eXperience.png)
 # 👩‍💻 Author
 
 **Esther Ohuenene Emmanuel**
