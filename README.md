@@ -505,7 +505,7 @@ Future enhancements could include:
 
 Provides an overview of hotel performance through KPIs, revenue trends, customer segments, and hotel performance.
 
-![Executive Dashboard](images/executive_dashboard.png)
+![Executive Dashboard](Executive_Dashboard.png)
 
 ---
 
@@ -513,7 +513,7 @@ Provides an overview of hotel performance through KPIs, revenue trends, customer
 
 Investigates booking cancellation behaviour to identify revenue leakage and high-risk booking patterns.
 
-![Cancellation Analysis](images/cancellation_analysis.png)
+![Cancellation Analysis](Cancellation_Analysis.png)
 
 ---
 
@@ -521,7 +521,7 @@ Investigates booking cancellation behaviour to identify revenue leakage and high
 
 Examines monthly booking trends, ADR, and revenue patterns to support seasonal planning.
 
-![Seasonal Analysis](images/seasonal_analysis.png)
+![Seasonal Analysis](Seasonal_Analysis.png)
 
 ---
 
@@ -529,7 +529,7 @@ Examines monthly booking trends, ADR, and revenue patterns to support seasonal p
 
 Explores guest behaviour, customer segments, and geographic revenue distribution.
 
-![Guest Experience](images/guest_eXperience.png)
+![Guest Experience](Guest_EXperience.png)
 # 👩‍💻 Author
 
 **Esther Ohuenene Emmanuel**
