@@ -174,20 +174,41 @@ The model supports interactive filtering and cross-filtering across all report p
 - Storage Mode: Import
 - Relationships: Not required (single-table dataset)
 - Data Preparation: Microsoft Excel and Power Query
+
+  
 # 📐 DAX Measures
 
-Several DAX measures were created to support business analysis and dashboard interactivity.
+Several DAX measures were created to support KPI reporting and interactive business analysis.
 
-### Key Measures
+| Measure | Purpose |
+|---------|---------|
+| Total Revenue | Calculates the total revenue generated from hotel bookings |
+| Total Guests | Calculates the total number of guests |
+| Total Bookings | Counts the total number of bookings |
+| Average Daily Rate (ADR) | Calculates the average daily room rate |
+| Cancellation Rate | Calculates the percentage of cancelled bookings |
 
-- Total Revenue
-- Total Guests
-- Total Bookings
-- Cancellation Rate
-- Average Daily Rate (ADR)
-- Booking Count
-- Revenue by Hotel Type
-- Revenue by Customer Segment
+### Sample DAX Measures
+
+```DAX
+Total Revenue =
+SUM(hotel_bookings[Revenue])
+```
+
+```DAX
+Total Guests =
+SUM(hotel_bookings[Total Guest])
+```
+
+```DAX
+Cancellation Rate =
+DIVIDE(
+    CALCULATE(COUNTROWS(hotel_bookings), hotel_bookings[Is Canceled] = 1),
+    COUNTROWS(hotel_bookings)
+)
+```
+
+These measures provide dynamic KPI calculations that automatically respond to report filters and slicers.
 
 # 📊 Dashboard Overview
 
@@ -421,7 +442,35 @@ Approximately **37%** of bookings were cancelled, resulting in significant reven
 - Develop premium service packages for guests requesting additional services.
 - Personalise guest experiences using booking behaviour.
 - Reward high-value guests through loyalty programmes and exclusive offers.
+# 🔄 Project Workflow
 
+The project followed a structured Business Intelligence workflow:
+
+Raw Hotel Booking Dataset
+
+⬇
+
+Data Cleaning (Microsoft Excel)
+
+⬇
+
+Data Transformation (Power Query)
+
+⬇
+
+Data Modeling (Single-Table Analytical Model)
+
+⬇
+
+DAX Measure Creation
+
+⬇
+
+Dashboard Development (Power BI)
+
+⬇
+
+Business Insights & Recommendations
 # 💼 Skills Demonstrated
 
 Throughout this project, the following technical and analytical skills were demonstrated:
@@ -460,6 +509,7 @@ Throughout this project, the following technical and analytical skills were demo
 - Business Storytelling
 - Interactive Reporting
 - Performance Monitoring
+
 
 # 🛠️ Tools Used
 
