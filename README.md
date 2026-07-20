@@ -555,7 +555,7 @@ Future enhancements could include:
 
 Provides an overview of hotel performance through KPIs, revenue trends, customer segments, and hotel performance.
 
-![Executive Dashboard](images/Executive_Dashboard.png)
+![Executive Dashboard](images/Executive_Dashboard.png.png)
 
 ---
 
